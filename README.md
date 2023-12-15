@@ -330,6 +330,22 @@ disqus:
 
 where `SITENAME` is the name you gave your site on Disqus.
 
+#### Gitalk
+
+First, create a OAuth application here: [https://github.com/settings/applications/new](https://github.com/settings/applications/new)
+
+Next, update the `_config.yml` file:
+
+```yml
+gitalk:
+    enabled: false
+    owner: owner # your github name
+    repo: owner/githubrepo # save your blog comment to this repo's issue
+    admin: # ['owner'] 
+    clientID: # OAuth application id
+    clientSecret: # OAuth application secret, don't push this to public when you set it.
+```
+
 #### Utterances
 
 First, follow the instructions on the [oficial website](https://utteranc.es/) to setup an issue tracker Utterances will connect to.

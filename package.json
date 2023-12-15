@@ -43,6 +43,7 @@
     "clipboard": "^2.0.4",
     "jquery": "^3.3.1",
     "justifiedGallery": "^3.6.5",
-    "vazir-font": "*"
+    "vazir-font": "*",
+    "gitalk":"^1.8.0"
   }
 }

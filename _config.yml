@@ -177,6 +177,15 @@ disqus:
   enabled: false
   shortname: cactus-1
 
+# Fill in your Gitalk Comments to enable Gitalk comments.
+gitalk:
+    enabled: false
+    owner:  # your github name
+    repo: # save your blog comment to this repo's issue
+    admin: # ['your github name'] 
+    clientID: # OAuth application id
+    clientSecret: # OAuth application secret, don't push this to public when you set it.
+
 # Fill in your Utterances data to enable Utterances comments
 utterances:
   enabled: false
