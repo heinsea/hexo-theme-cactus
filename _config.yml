@@ -82,6 +82,11 @@ copyright:
   start_year: 2016
   end_year:
 
+# Customize the beian id
+beian:
+  id: 
+  link: # https://beian.miit.gov.cn/
+
 # Customize the 404 page
 # Options:
 #   - enabled: whether to enable the 404 page (404.html).

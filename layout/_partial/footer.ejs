@@ -6,6 +6,11 @@
     <%= startYear >= endYear ? endYear : startYear + "-" + endYear %>
     <%= config.author || config.title %>
   </div>
+  <div class="footer-left">
+    <% var beianid = (theme.beian && theme.beian.id) ? theme.beian.id : '' %>
+    <% var beianlink = theme.beian.link %>
+    <li><a href="<%- url_for(beianlink) %>"><%= beianid %></a></li>
+  </div>
   <div class="footer-right">
     <nav>
       <ul>
