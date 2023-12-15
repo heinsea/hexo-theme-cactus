@@ -208,6 +208,14 @@ copyright:
   end_year:
 ```
 
+### Beian id
+
+```yml
+beian:
+  id: # your beian id
+  link: # https://beian.miit.gov.cn/
+```
+
 ### Language configuration
 
 If you are new to Hexo and internationalization (i18n), please read
